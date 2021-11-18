@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DualNBack</string>
+    <string name="title_text">Dual n back</string>
+    <string name="play_button">start</string>
+</resources>

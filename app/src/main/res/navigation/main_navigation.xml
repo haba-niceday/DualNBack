@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/title_destination">
+
+    <fragment
+        android:id="@+id/title_destination"
+        android:name="mojo.surya.dualnback.screens.title.TitleFragment"
+        android:label="TitleFragment"
+        tools:layout="@layout/title_fragment">
+        <action
+            android:id="@+id/action_title_destination_to_NBackFragment"
+            app:destination="@id/NBackFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/NBackFragment"
+        android:name="mojo.surya.dualnback.screens.nback.NBackFragment"
+        android:label="NBackFragment"
+        tools:layout="@layout/n_back_fragment"/>
+</navigation>
